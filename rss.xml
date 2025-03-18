@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[midori's gitpage blog]]></description><link>https://moemidori.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Mar 2025 23:34:01 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[First postということで軽くこのページの立ち上げ経緯など記載 はじめに 「いい感じのポートフォリオを作りたい」
-エンジニアだし、自分のポートフォリオページ欲しいと思い立つ。 軽くてカスタマイズできるフレームワークを選びたい。
-なのでGatsby.js…]]></description><link>https://moemidori.github.io/blog/hello-world/</link><guid isPermaLink="false">https://moemidori.github.io/blog/hello-world/</guid><pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;First postということで軽くこのページの立ち上げ経緯など記載&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[midori's gitpage blog]]></description><link>https://moemidori.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Mar 2025 10:33:52 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[First postということで 軽くこのページの立ち上げ経緯など記載 はじめに 「いい感じのポートフォリオを作りたい」 エンジニアだし、自分のポートフォリオページ欲しいと思い立つ。 軽くてカスタマイズできるフレームワークを選びたい。 なのでGatsby.js…]]></description><link>https://moemidori.github.io/blog/hello-world/</link><guid isPermaLink="false">https://moemidori.github.io/blog/hello-world/</guid><pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;First postということで&lt;br&gt;
+軽くこのページの立ち上げ経緯など記載&lt;/p&gt;
 &lt;h2&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;「いい感じのポートフォリオを作りたい」
-エンジニアだし、自分のポートフォリオページ欲しいと思い立つ。&lt;/p&gt;
-&lt;p&gt;軽くてカスタマイズできるフレームワークを選びたい。
+&lt;p&gt;「いい感じのポートフォリオを作りたい」&lt;br&gt;
+エンジニアだし、自分のポートフォリオページ欲しいと思い立つ。&lt;br&gt;
+軽くてカスタマイズできるフレームワークを選びたい。&lt;br&gt;
 なのでGatsby.jsを選びました。&lt;/p&gt;
 &lt;h2&gt;なぜGatsby.js&lt;/h2&gt;
 &lt;ul&gt;
@@ -21,5 +20,5 @@
 &lt;li&gt;デプロイが楽&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;最後に&lt;/h2&gt;
-&lt;p&gt;Reactベースのフレームワークは初めてなので
+&lt;p&gt;Reactベースのフレームワークは初めてなので&lt;br&gt;
 勉強しながらカスタマイズしていきたい&lt;/p&gt;</content:encoded></item></channel></rss>
