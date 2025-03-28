@@ -10,10 +10,10 @@
 module.exports = {
   pathPrefix:'/blog',
   siteMetadata: {
-    title: `Midori's Home`,
+    title: `mido.log`,
     author: {
       name: `Midori`,
-      summary: `ゲーム好きのエンジニア。JavaScript好き。`,
+      summary: `ゲーム好きのエンジニア。`,
     },
     description: `midori's gitpage blog`,
     siteUrl: `https://moemidori.github.io/blog/`,

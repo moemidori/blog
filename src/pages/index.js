@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import kebabCase from "lodash/kebabCase"
 
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
@@ -32,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-
+          const tags = post.frontmatter.tags
           return (
             <li key={post.fields.slug}>
               <article
@@ -46,7 +47,20 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>
+                    {post.frontmatter.date}
+                    &nbsp;&nbsp;
+                    {tags && tags.length > 0 && tags.map(tag => {
+                      return (
+                        <React.Fragment key={tag}>
+                          &nbsp;&nbsp;
+                        <Link to={`/tags/${kebabCase(tag)}/`}>
+                          {tag}
+                        </Link>
+                        </React.Fragment>
+                      )
+                    })}
+                  </small>
                 </header>
                 <section>
                   <p
@@ -91,6 +105,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          tags
         }
       }
     }

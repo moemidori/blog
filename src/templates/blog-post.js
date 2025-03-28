@@ -4,13 +4,14 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import kebabCase from "lodash/kebabCase"
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
-
+  const tags = post.frontmatter.tags
   return (
     <Layout location={location} title={siteTitle}>
       <article
@@ -20,7 +21,19 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>{post.frontmatter.date}
+          &nbsp;&nbsp;
+            {tags && tags.length > 0 && tags.map(tag => {
+              return (
+                <React.Fragment key={tag}>
+                    &nbsp;&nbsp;
+                <Link to={`/tags/${kebabCase(tag)}`}>
+                    {tag}
+                </Link>
+                </React.Fragment>
+              )
+            })}
+          </p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -91,6 +104,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

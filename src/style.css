@@ -27,11 +27,11 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "MontserratVariable", system-ui, -apple-system,
+  --fontFamily-sans: 'Noto Sans JP Variable', sans-serif,"MontserratVariable", system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
+  --fontFamily-serif: 'Noto Sans JP Variable', sans-serif,"Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
@@ -52,12 +52,13 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
-  --color-accent: #d1dce5;
+  --bg: #101010;
+  --color-primary: #ffa466;
+  --color-text: #d1cac0;
+  --color-text-light: #b0a696;
+  --color-heading: #e5dfd3;
+  --color-heading-black: white;
+  --color-accent: #2e231a;
 }
 
 /* HTML elements */
@@ -79,6 +80,17 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background: var(--bg);
+  animation: loading 1s;
+}
+
+@keyframes loading {
+	0% {opacity: 0;transform: scale(1.05);}
+	100% {opacity: 1;transform: scale(1);}
+}
+@keyframes loading2 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
 
 footer {
@@ -242,7 +254,10 @@ a:focus {
   margin: var(--spacing-0) auto;
   max-width: var(--maxWidth-wrapper);
   padding: var(--spacing-10) var(--spacing-5);
+  animation: loading2 0.5s;
 }
+
+
 
 .global-wrapper[data-is-root-path="true"] .bio {
   margin-bottom: var(--spacing-20);
@@ -255,6 +270,7 @@ a:focus {
 .main-heading {
   font-size: var(--fontSize-7);
   margin: 0;
+  animation: loading 1s;
 }
 
 .post-list-item {
@@ -302,6 +318,7 @@ a:focus {
 
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
+  animation: loading 1s;
 }
 
 .blog-post header p {
