@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[midori's gitpage blog]]></description><link>https://moemidori.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 31 Mar 2025 13:06:07 GMT</lastBuildDate><item><title><![CDATA[Second Brain]]></title><description><![CDATA[日常的にメモって取りますか？私は毎日メモを記録しています。 買い物の備忘録的なメモから週間スケジュールなど、いろいろあると思いますが ここではデジタルな情報としてメモと定義します。 情報を整理し、創造性を高めるための「Second Brain…]]></description><link>https://moemidori.github.io/blog/second-brain/</link><guid isPermaLink="false">https://moemidori.github.io/blog/second-brain/</guid><pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;日常的にメモって取りますか？私は毎日メモを記録しています。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[midori's gitpage blog]]></description><link>https://moemidori.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 31 Mar 2025 13:11:19 GMT</lastBuildDate><item><title><![CDATA[Second Brain]]></title><description><![CDATA[日常的にメモって取りますか？私は毎日メモを記録しています。 買い物の備忘録的なメモから週間スケジュールなど、いろいろあると思いますが ここではデジタルな情報としてメモと定義します。 情報を整理し、創造性を高めるための「Second Brain…]]></description><link>https://moemidori.github.io/blog/second-brain/</link><guid isPermaLink="false">https://moemidori.github.io/blog/second-brain/</guid><pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;日常的にメモって取りますか？私は毎日メモを記録しています。&lt;/p&gt;
 &lt;p&gt;買い物の備忘録的なメモから週間スケジュールなど、いろいろあると思いますが&lt;br&gt;
 ここではデジタルな情報としてメモと定義します。&lt;br&gt;
 情報を整理し、創造性を高めるための「Second Brain」構築方法を紹介します。&lt;/p&gt;
@@ -34,9 +34,11 @@
 ストレス軽減、集中力向上、生産性向上に繋がり、&lt;br&gt;
 最終的には創造的なプロジェクトの完成に繋がります。&lt;/p&gt;
 &lt;p&gt;自分自身を最適化し、生産性マシンになろうとするのではなく、&lt;br&gt;
-自分自身よりもずっと信頼できる外部システムを最適化します。&lt;/p&gt;
-&lt;p&gt;これにより、想像し、疑問を持ち、&lt;br&gt;
-今この瞬間に自分を生き生きと自由な思考を持てるようになるでしょう。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[First postということで 軽くこのページの立ち上げ経緯など記載 はじめに 「いい感じのポートフォリオを作りたい」 エンジニアだし、自分のポートフォリオページ欲しいと思い立つ。 軽くてカスタマイズできるフレームワークを選びたい。 なのでGatsby.js…]]></description><link>https://moemidori.github.io/blog/hello-world/</link><guid isPermaLink="false">https://moemidori.github.io/blog/hello-world/</guid><pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;First postということで&lt;br&gt;
+自分自身よりもずっと信頼できる外部システムを最適化します。&lt;br&gt;
+これにより、想像し、疑問を持ち、&lt;br&gt;
+今この瞬間に自分を生き生きと自由な思考を持てるようになるでしょう。&lt;/p&gt;
+&lt;p&gt;つまり端的に言うと...&lt;br&gt;
+みんな&lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt;を使ってメモしよう。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[First postということで 軽くこのページの立ち上げ経緯など記載 はじめに 「いい感じのポートフォリオを作りたい」 エンジニアだし、自分のポートフォリオページ欲しいと思い立つ。 軽くてカスタマイズできるフレームワークを選びたい。 なのでGatsby.js…]]></description><link>https://moemidori.github.io/blog/hello-world/</link><guid isPermaLink="false">https://moemidori.github.io/blog/hello-world/</guid><pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;First postということで&lt;br&gt;
 軽くこのページの立ち上げ経緯など記載&lt;/p&gt;
 &lt;h2&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;「いい感じのポートフォリオを作りたい」&lt;br&gt;
